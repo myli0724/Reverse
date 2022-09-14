@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc4e581e-9b40-4f0d-908a-5b289d8e9f2a" name="Changes" comment="completed！">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ReverseBigInteger/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReverseBigInteger/GUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReverseBigInteger/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReverseBigInteger/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReverseBigInteger/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReverseBigInteger/Reverser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReverseBigInteger/Reverser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +113,7 @@
       <option name="presentableId" value="Default" />
       <updated>1663151563045</updated>
       <workItem from="1663151564406" duration="7123000" />
-      <workItem from="1663161028798" duration="4734000" />
+      <workItem from="1663161028798" duration="5549000" />
     </task>
     <task id="LOCAL-00001" summary="reverser class created">
       <created>1663152459248</created>
@@ -148,7 +150,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663165376976</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="completed！">
+      <created>1663165908303</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663165908303</updated>
+    </task>
+    <task id="LOCAL-00007" summary="completed！">
+      <created>1663165957241</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663165957241</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

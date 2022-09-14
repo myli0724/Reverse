@@ -14,7 +14,7 @@ public class Reverser {
         String res;
         if(str.indexOf('.')!=-1){  //如果是有小数点；
             String[] strArr = str.split("\\.");  //正则表达式，将小数点俩边分成两个字符串分别处理；需要转义字符；
-            res = removezero(reverseString(strArr[0]))+"."+reverseString(strArr[1]);//分别处理两边；
+            res = removezero(reverseString(removezero(strArr[0])))+"."+reverseString(strArr[1]);//分别处理两边；
         }
         else{  //如果是整数；直接反转；
             res = removezero(reverseString(str));

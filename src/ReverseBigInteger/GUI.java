@@ -5,6 +5,10 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+/*
+采用的是Java swing 创造的界面；
+ */
+
 public class GUI extends JFrame {
     public static void main(String[] args) {
     new GUI();
@@ -81,11 +85,13 @@ public class GUI extends JFrame {
                         resultfiled.setText("");
                     }
                 });
+
+        //关于本项目的介绍页面：
         ifoBtn.addActionListener(
                 new ActionListener() {
                     @Override
                     public void actionPerformed(ActionEvent e) {
-                        JOptionPane.showMessageDialog(null,"网络编程作业一\n一个转换十进制小数的GUI程序，\n整数部分和小数部分分别逆序转换\n支持正负数;\n关于：网络201张进华\nemail:2006200014@e.gzhu.edu.cn\nGithub:\nhttps://github.com/myli0724/Reverse");
+                        JOptionPane.showMessageDialog(null,"网络编程作业一\n一个转换十进制小数的GUI程序，\n整数部分和小数部分分别逆序转换，\n支持正负数，采用了Java的swing来创建交互界面;\n关于：网络201张进华\nemail:2006200014@e.gzhu.edu.cn\nGithub:\nhttps://github.com/myli0724/Reverse");
                     }
                 }
         );
