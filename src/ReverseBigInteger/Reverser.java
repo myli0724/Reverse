@@ -24,6 +24,16 @@ public class Reverser {
     public  static String reverseFromZero(String value){
         int indexZero = -1;
         StringBuffer s = new StringBuffer();
+
+        boolean isNegative = false;
+        if (value.charAt(0)=='-') {
+            isNegative = true;
+            value = value.substring(1,value.length()-1);
+        }
+        if(value.charAt(0)=='+'){
+            value = value.substring(2,value.length()-1);
+        }
+
         for(int i = 0;i<value.length();i++){
             if(value.charAt(i)=='0'){
                 indexZero = i;
@@ -38,7 +48,12 @@ public class Reverser {
         }else{
             s = new StringBuffer(value);
         }
-        return s.toString();
+        String res = s.toString();
+        if(isNegative){
+            System.out.println("negative!");
+            return "-"+res;
+        }
+        return res;
     }
 
     public static void main(String[] args) {
