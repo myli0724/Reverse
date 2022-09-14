@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc4e581e-9b40-4f0d-908a-5b289d8e9f2a" name="Changes" comment="GUI">
+    <list default="true" id="fc4e581e-9b40-4f0d-908a-5b289d8e9f2a" name="Changes" comment="Bugs fixed；添加注释；">
+      <change afterPath="$PROJECT_DIR$/src/ReverseBigInteger/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReverseBigInteger/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReverseBigInteger/GUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReverseBigInteger/Reverser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReverseBigInteger/Reverser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +40,7 @@
     <property name="project.structure.side.proportion" value="0.41724136" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.Reverser">
+  <component name="RunManager" selected="Application.test">
     <configuration name="GUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ReverseBigInteger.GUI" />
       <module name="Reverse" />
@@ -68,8 +67,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReverseBigInteger.test" />
+      <module name="Reverse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ReverseBigInteger.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.Reverser" />
         <item itemvalue="Application.GUI" />
       </list>
@@ -84,7 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1663151563045</updated>
       <workItem from="1663151564406" duration="7123000" />
-      <workItem from="1663161028798" duration="1581000" />
+      <workItem from="1663161028798" duration="4269000" />
     </task>
     <task id="LOCAL-00001" summary="reverser class created">
       <created>1663152459248</created>
@@ -107,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663158730669</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Bugs fixed；添加注释；">
+      <created>1663162790443</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663162790443</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +160,7 @@
     <MESSAGE value="reverser class created" />
     <MESSAGE value="Reverser completed" />
     <MESSAGE value="GUI" />
-    <option name="LAST_COMMIT_MESSAGE" value="GUI" />
+    <MESSAGE value="Bugs fixed；添加注释；" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bugs fixed；添加注释；" />
   </component>
 </project>
