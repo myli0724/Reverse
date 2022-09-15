@@ -71,9 +71,15 @@ public class GUI extends JFrame {
                             JOptionPane.showMessageDialog(null, "输入不能为空");
                         }
                         else{
-                            resultfiled.setText(Reverser.reverse(input));
+                            try {
+                                //  Block of code to try
+                                resultfiled.setText(Reverser.reverse(input));
+                            }
+                            catch(Exception exception) {
+                                //  Block of code to handle errors
+                                JOptionPane.showMessageDialog(null,"输入格式有误，请重新输入！");
+                            }
                         }
-
                     }
                 });
         /** 清空输入信息 */
